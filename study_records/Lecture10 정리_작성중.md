@@ -15,13 +15,32 @@ cs231n(Spring 2017) 강의를 정리합니다.
 
 #
 ![1](https://raw.githubusercontent.com/ai-robotics-kr/CS231n_study/master/images/lecture10/1.png)
+
+- one to one : Vanilla RNN
+- one [input] to many[output] : 개 그림을 인풋으로 주면 개가 뭘 하고 있다가 아웃풋
+- many[input] to one[output] : 네이버 영화 리뷰 긍부정 평가
+- many to many: machine translation (기계 번역), 비디오 프레임 마다의 분류
+
+
 ![2](https://raw.githubusercontent.com/ai-robotics-kr/CS231n_study/master/images/lecture10/2.png)
 ![3](https://raw.githubusercontent.com/ai-robotics-kr/CS231n_study/master/images/lecture10/3.png)
 ![4](https://raw.githubusercontent.com/ai-robotics-kr/CS231n_study/master/images/lecture10/4.png)
 ![5](https://raw.githubusercontent.com/ai-robotics-kr/CS231n_study/master/images/lecture10/5.png)
+
+- RNN (vanilla) : input x -> RNN (internal state) -> output y
+- h<sub>t</sub> = f<sub>w</sub> (h<sub>t-1</sub>, x<sub>t</sub>)
+  - h<sub>t</sub> : new state
+  - h<sub>t-1</sub>: old state
+  - The same function ( the same W matrix) [f<sub>w</sub>]
+  
+  
 ![6](https://raw.githubusercontent.com/ai-robotics-kr/CS231n_study/master/images/lecture10/6.png)
 ![7](https://raw.githubusercontent.com/ai-robotics-kr/CS231n_study/master/images/lecture10/7.png)
 ![8](https://raw.githubusercontent.com/ai-robotics-kr/CS231n_study/master/images/lecture10/8.png)
+
+sigmoid가 아닌 tanh를 씀 : 음수 범위도 표현해줄 수 있어서
+
+
 ![9](https://raw.githubusercontent.com/ai-robotics-kr/CS231n_study/master/images/lecture10/9.png)
 ![10](https://raw.githubusercontent.com/ai-robotics-kr/CS231n_study/master/images/lecture10/10.png)
 ![11](https://raw.githubusercontent.com/ai-robotics-kr/CS231n_study/master/images/lecture10/11.png)
@@ -39,6 +58,10 @@ cs231n(Spring 2017) 강의를 정리합니다.
 ![23](https://raw.githubusercontent.com/ai-robotics-kr/CS231n_study/master/images/lecture10/23.png)
 ![24](https://raw.githubusercontent.com/ai-robotics-kr/CS231n_study/master/images/lecture10/24.png)
 ![25](https://raw.githubusercontent.com/ai-robotics-kr/CS231n_study/master/images/lecture10/25.png)
+
+Truncated backpropagation through time : loss를 일정 step마다 나눠서 backpropagation
+
+
 ![26](https://raw.githubusercontent.com/ai-robotics-kr/CS231n_study/master/images/lecture10/26.png)
 ![27](https://raw.githubusercontent.com/ai-robotics-kr/CS231n_study/master/images/lecture10/27.png)
 ![28](https://raw.githubusercontent.com/ai-robotics-kr/CS231n_study/master/images/lecture10/28.png)
@@ -79,8 +102,25 @@ cs231n(Spring 2017) 강의를 정리합니다.
 ![63](https://raw.githubusercontent.com/ai-robotics-kr/CS231n_study/master/images/lecture10/63.png)
 ![64](https://raw.githubusercontent.com/ai-robotics-kr/CS231n_study/master/images/lecture10/64.png)
 ![65](https://raw.githubusercontent.com/ai-robotics-kr/CS231n_study/master/images/lecture10/65.png)
+
+- Image captioning
+  - image -> CNN ---[feature vector W] ---> RNN
+  - image -> CNN ---[feature vector W]--attention을 활용하여--> RNN
+
+
 ![66](https://raw.githubusercontent.com/ai-robotics-kr/CS231n_study/master/images/lecture10/66.png)
 ![67](https://raw.githubusercontent.com/ai-robotics-kr/CS231n_study/master/images/lecture10/67.png)
+
+- Soft attention
+  - gray-scaling image
+  - CNN network에서 모든 feature vector를 뽑아냄 ( 모든 feature vector에 attention)
+
+- Hard attention
+  - 특정 feature vector만 뽑아내는 것 -> Non differentiable -> RL에 많이 씀
+
+[참고자료][What is the difference between soft attention and hard attention in neural networks](https://www.quora.com/What-is-the-difference-between-soft-attention-and-hard-attention-in-neural-networks)
+
+
 ![68](https://raw.githubusercontent.com/ai-robotics-kr/CS231n_study/master/images/lecture10/68.png)
 ![69](https://raw.githubusercontent.com/ai-robotics-kr/CS231n_study/master/images/lecture10/69.png)
 ![70](https://raw.githubusercontent.com/ai-robotics-kr/CS231n_study/master/images/lecture10/70.png)

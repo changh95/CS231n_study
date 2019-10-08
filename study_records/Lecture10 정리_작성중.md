@@ -1,7 +1,7 @@
 Lecture 10. Recurrent Neural Networks [작성중]
 ==========================================
 
-cs231n(Spring 2017) 강의를 정리합니다.
+스터디원 임한동 님의 발표 내용을 바탕으로 cs231n lecture 10. RNN을 정리합니다.
 
 (본 포스팅은 [CS231n_study/study_records/발표자료/cs231n_2019_lecture10.pptx](https://github.com/ai-robotics-kr/CS231n_study/blob/master/study_records/%EB%B0%9C%ED%91%9C%EC%9E%90%EB%A3%8C/cs231n_2019_lecture10.pptx)와 [CS231n 강의 슬라이드](http://cs231n.stanford.edu/slides/2019/cs231n_2019_lecture10.pdf)를 참고하여 작성하였습니다.)
 
@@ -16,25 +16,39 @@ cs231n(Spring 2017) 강의를 정리합니다.
 #
 ![1](https://raw.githubusercontent.com/ai-robotics-kr/CS231n_study/master/images/lecture10/1.png)
 
-- one to one : Vanilla RNN
-- one [input] to many[output] : 개 그림을 인풋으로 주면 개가 뭘 하고 있다가 아웃풋
-- many[input] to one[output] : 네이버 영화 리뷰 긍부정 평가
-- many to many: machine translation (기계 번역), 비디오 프레임 마다의 분류
+- one to one : Vanilla RNN. 입력이 1개이면 출력이 1개 나오는, 가장 기본적인 RNN 구조입니다.
 
+- one [input] to many[output] : 입력이 1개일 때 출력이 여러개인 구조입니다. 예를 들면, 강아지 그림을 인풋으로 주면 '강아지가 뭘 하고 있다'라는 문장이 아웃풋으로 나오는 image captioning이 있습니다.
 
+- many[input] to one[output] : 입력이 여러개 일 때 출력이 1개인 구조입니다. 예시로는 Sentiment classification이 있는데, 네이버 영화 리뷰를 보고 리뷰가 긍정적인지 부정적인지 분류하는 것과 같은 것입니다.
+
+- many to many: 입력이 여러개일 때 출력도 여러개 나오는 구조입니다. 예를 들어 machine translation (기계 번역)(프랑스어를 한국어로 번역하기), Video classification on frame level(비디오 프레임 마다의 분류)가 있습니다.
+
+#
 ![2](https://raw.githubusercontent.com/ai-robotics-kr/CS231n_study/master/images/lecture10/2.png)
-![3](https://raw.githubusercontent.com/ai-robotics-kr/CS231n_study/master/images/lecture10/3.png)
+
+예시로 Sequential data 뿐만 아니라, 이런 Non-sequential data에 대해서 적용된 예시가 나오는데, 이 예시는 MNIST 그림 일부분을 연속적으로 보면서 해당 글자가 어떤 건지 예측하는 RNN모델입니다.
+
+#
 ![4](https://raw.githubusercontent.com/ai-robotics-kr/CS231n_study/master/images/lecture10/4.png)
+
+RNN의 기본 구조인 Vanilla RNN 입니다. 입력 x가 들어가서 internal state가 발생하고 출력 y가 나오는 구조입니다.
+
+#
 ![5](https://raw.githubusercontent.com/ai-robotics-kr/CS231n_study/master/images/lecture10/5.png)
 
 - RNN (vanilla) : input x -> RNN (internal state) -> output y
 - h<sub>t</sub> = f<sub>w</sub> (h<sub>t-1</sub>, x<sub>t</sub>)
-  - h<sub>t</sub> : new state
-  - h<sub>t-1</sub>: old state
-  - The same function ( the same W matrix) [f<sub>w</sub>]
+  - h<sub>t</sub> : NEW state
+  - h<sub>t-1</sub>: OLD state
+  - t: time step
+  - The same function ( the same W matrix) [f<sub>w</sub>] : 모두 똑같은 W 매트릭스를 통해서 hidden state를 구한다고 강의에서 강조하였습니다.
   
-  
+#
 ![6](https://raw.githubusercontent.com/ai-robotics-kr/CS231n_study/master/images/lecture10/6.png)
+
+
+
 ![7](https://raw.githubusercontent.com/ai-robotics-kr/CS231n_study/master/images/lecture10/7.png)
 ![8](https://raw.githubusercontent.com/ai-robotics-kr/CS231n_study/master/images/lecture10/8.png)
 

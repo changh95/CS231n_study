@@ -46,12 +46,12 @@ time step **t**의 hidden state(h)는 직전 시점 **t-1**의 hidden state(h)�
 #
 ![6](https://raw.githubusercontent.com/ai-robotics-kr/CS231n_study/master/images/lecture10/6.png)
 
-The same function ( the same W matrix) [f<sub>w</sub>] : "같은 W 매트릭스를 통해서 hidden state를 구한다"
+The same function (the same W matrix) [f<sub>w</sub>] : "같은 W 매트릭스를 통해서 hidden state를 구한다"
 
 #
 ![7](https://raw.githubusercontent.com/ai-robotics-kr/CS231n_study/master/images/lecture10/7.png)
 
-tanh함수를 사용하는 이유는 -1에서 1 범위의 값들을 표현해줄 수 있어서 입니다.
+sigmoid가 아닌 tanh함수를 사용하는 이유는 **-1에서 1 범위의 값들을 표현해줄 수 있어서** 입니다.
 
 #
 ![10](https://raw.githubusercontent.com/ai-robotics-kr/CS231n_study/master/images/lecture10/10.png)

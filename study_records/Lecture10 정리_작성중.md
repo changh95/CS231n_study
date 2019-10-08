@@ -48,7 +48,7 @@ function f는 weights w에 따라 달라지는데, function f는 이전 히든 �
 #
 ![6](https://raw.githubusercontent.com/ai-robotics-kr/CS231n_study/master/images/lecture10/6.png)
 
-The same function (the same W matrix) [f<sub>w</sub>] : "같은 W 매트릭스를 통해서 hidden state를 구한다"
+매번, 타임스텝마다, 동일한 function f를 사용합니다.
 
 #
 ![7](https://raw.githubusercontent.com/ai-robotics-kr/CS231n_study/master/images/lecture10/7.png)

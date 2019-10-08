@@ -1,5 +1,6 @@
 Lecture3. Loss Functions and Optimization
 =========================================
+(**작성자**: 김영기 w/ 박혜지)
 
 Fei-Fei 교수님의 cs231n(Spring 2017) 강의를 정리해보고자 합니다.
 

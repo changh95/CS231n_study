@@ -90,9 +90,36 @@ sigmoid가 아닌 tanh함수를 사용하는 이유는 **-1에서 1 범위의 �
 
 #
 ![16](https://raw.githubusercontent.com/ai-robotics-kr/CS231n_study/master/images/lecture10/16.png)
+
+왼쪽 many-to-one은 encoder로 볼 수 있습니다. many-to-one에서 프랑스어 문장 전체를 입력으로 받으면 그 문장을 하나의 벡터로 만듭니다. 그러면 오른쪽에 있는 decoder인 one-to-many에서 그 벡터를 입력으로 받아 출력으로 한국어 문장 전체가 나옵니다.
+
+#
+RNN은 language modeling에서도 자주 쓰입니다.
+
+character 하나 하나를 가지고 하는 character-level language model도 있고,
+단어 하나 하나를 가지고 하는 word-level language model도 있습니다.
+
+간단한 예시로 character-level language model을 보겠습니다.
+
+#
 ![17](https://raw.githubusercontent.com/ai-robotics-kr/CS231n_study/master/images/lecture10/17.png)
+
+연속된 character를 읽고 다음 character가 뭔지 예측하는 language model입니다.
+단어 'hello'로 트레이닝하고자할 때, 각각의 character를 입력값으로 가지는데, 이 입력값들을 벡터로 표현하면,
+위와 같습니다.
+
+#
 ![18](https://raw.githubusercontent.com/ai-robotics-kr/CS231n_study/master/images/lecture10/18.png)
+
+입력값으로 글자 'h'를 받아 RNN으로 들어가고 다음 글자는 뭐가 될 가능성이 제일 큰지를 나타내는 출력값 y<sub>t</sub>가 나옵니다.
+
+#
 ![19](https://raw.githubusercontent.com/ai-robotics-kr/CS231n_study/master/images/lecture10/19.png)
+
+그런데 위 그림을 보면, 가장 확률이 높은 것을 골랐을 때에는, 정답과 다른 글자를 예측하고 있습니다.
+그럼 결국에 높은 loss를 갖게 되는데, 
+트레이닝을 계속 하다보면 조금씩 loss가 작아지면서 점점 더 예측을 잘하게 됩니다.
+
 ![20](https://raw.githubusercontent.com/ai-robotics-kr/CS231n_study/master/images/lecture10/20.png)
 ![21](https://raw.githubusercontent.com/ai-robotics-kr/CS231n_study/master/images/lecture10/21.png)
 ![22](https://raw.githubusercontent.com/ai-robotics-kr/CS231n_study/master/images/lecture10/22.png)

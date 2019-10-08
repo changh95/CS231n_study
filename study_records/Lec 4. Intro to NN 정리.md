@@ -1,5 +1,6 @@
 Lecture 4. Introduction to Neural Networks
 ==========================================
+(**작성자**: 김영기 w/ 박혜지)
 
 cs231n(Spring 2017) 강의를 정리합니다.
 

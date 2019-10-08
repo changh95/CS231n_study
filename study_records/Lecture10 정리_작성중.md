@@ -27,7 +27,7 @@ Lecture 10. Recurrent Neural Networks [작성중]
 #
 ![2](https://raw.githubusercontent.com/ai-robotics-kr/CS231n_study/master/images/lecture10/2.png)
 
-예시로 Sequential data 뿐만 아니라, 이런 Non-sequential data에 대해서 적용된 예시가 나오는데, 이 예시는 MNIST 그림 일부분을 연속적으로 보면서 해당 글자가 어떤 건지 예측하는 RNN모델입니다.
+예시로, 이미지를 입력으로 받아서 어떤 숫자가 이미지에 나타나있는지를 분류하는 문제가 있는데, 각각 feed forward 과정을 하기 보다, 이 네트워크는 이미지를 살펴보고, 이미지의 서로 다른 부분들을 살펴본 후에, 해당 이미지가 어떤 숫자를 나타내는지 결론을 내립니다. 이러한 예시는 RNN을 가지고 어떤 다양한 모델들이 나올지 기대되는 부분이기도 합니다.
 
 #
 ![4](https://raw.githubusercontent.com/ai-robotics-kr/CS231n_study/master/images/lecture10/4.png)

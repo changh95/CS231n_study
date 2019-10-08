@@ -4,4 +4,3 @@
 
 - [backpropagation을 numpy로 구현한 코드와 간단한 설명](https://github.com/positive235/simple-neural-networks/blob/master/simple_nn.py)
  
-> 스터디원 분들에게 : 수정할 내용 있으면 수정해주세요 :)

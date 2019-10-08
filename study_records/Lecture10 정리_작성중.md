@@ -16,13 +16,13 @@ Lecture 10. Recurrent Neural Networks [작성중]
 #
 ![1](https://raw.githubusercontent.com/ai-robotics-kr/CS231n_study/master/images/lecture10/1.png)
 
-- one to one : Vanilla RNN. 입력이 1개이면 출력이 1개 나오는, 가장 기본적인 RNN 구조입니다.
+- **one to one** : Vanilla RNN. 입력이 1개이면 출력이 1개 나오는, 가장 기본적인 RNN 구조입니다.
 
-- one [input] to many[output] : 입력이 1개일 때 출력이 여러개인 구조입니다. 예를 들면, 강아지 그림을 인풋으로 주면 '강아지가 뭘 하고 있다'라는 문장이 아웃풋으로 나오는 image captioning이 있습니다.
+- **one to many** : 입력이 1개일 때 출력이 여러개인 구조입니다. 예를 들면, 강아지 그림을 인풋으로 주면 '강아지가 뭘 하고 있다'라는 문장이 아웃풋으로 나오는 image captioning이 있습니다.
 
-- many[input] to one[output] : 입력이 여러개 일 때 출력이 1개인 구조입니다. 예시로는 Sentiment classification이 있는데, 네이버 영화 리뷰를 보고 리뷰가 긍정적인지 부정적인지 분류하는 것과 같은 것입니다.
+- **many to one** : 입력이 여러개 일 때 출력이 1개인 구조입니다. 예시로는 Sentiment classification이 있는데, 네이버 영화 리뷰를 보고 리뷰가 긍정적인지 부정적인지 분류하는 것과 같은 것입니다.
 
-- many to many: 입력이 여러개일 때 출력도 여러개 나오는 구조입니다. 예를 들어 machine translation (기계 번역)(프랑스어를 한국어로 번역하기), Video classification on frame level(비디오 프레임 마다의 분류)가 있습니다.
+- **many to many**: 입력이 여러개일 때 출력도 여러개 나오는 구조입니다. 예를 들어 machine translation (기계 번역)(프랑스어를 한국어로 번역하기), Video classification on frame level(비디오 프레임 마다의 분류)가 있습니다.
 
 #
 ![2](https://raw.githubusercontent.com/ai-robotics-kr/CS231n_study/master/images/lecture10/2.png)
@@ -37,12 +37,10 @@ RNN의 기본 구조인 Vanilla RNN 입니다. 입력 x가 들어가서 internal
 #
 ![5](https://raw.githubusercontent.com/ai-robotics-kr/CS231n_study/master/images/lecture10/5.png)
 
-- RNN (vanilla) : input x -> RNN (internal state) -> output y
-- h<sub>t</sub> = f<sub>w</sub> (h<sub>t-1</sub>, x<sub>t</sub>)
   - h<sub>t</sub> : NEW state
   - h<sub>t-1</sub>: OLD state
   - t: time step
-  - The same function ( the same W matrix) [f<sub>w</sub>] : 모두 똑같은 W 매트릭스를 통해서 hidden state를 구한다고 강의에서 강조하였습니다.
+  - The same function ( the same W matrix) [f<sub>w</sub>] : "같은 W 매트릭스를 통해서 hidden state를 구한다"
   
 #
 ![6](https://raw.githubusercontent.com/ai-robotics-kr/CS231n_study/master/images/lecture10/6.png)

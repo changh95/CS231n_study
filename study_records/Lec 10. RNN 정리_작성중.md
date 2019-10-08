@@ -181,19 +181,9 @@ http://gist.github.com/karpathy/d4dee566867f8291f086
 수학 교과서 내용으로 트레이닝해서 수학 공식이나 정의같은 결과물도 낼 수 있습니다.
 
 #
-![34](https://raw.githubusercontent.com/ai-robotics-kr/CS231n_study/master/images/lecture10/34.png)
-
-#
-![35](https://raw.githubusercontent.com/ai-robotics-kr/CS231n_study/master/images/lecture10/35.png)
-
-#
 ![36](https://raw.githubusercontent.com/ai-robotics-kr/CS231n_study/master/images/lecture10/36.png)
 
-#
-![37](https://raw.githubusercontent.com/ai-robotics-kr/CS231n_study/master/images/lecture10/37.png)
-
-#
-![38](https://raw.githubusercontent.com/ai-robotics-kr/CS231n_study/master/images/lecture10/38.png)
+C코드 같은 결과물도 낼 수 있습니다.
 
 #
 ![39](https://raw.githubusercontent.com/ai-robotics-kr/CS231n_study/master/images/lecture10/39.png)

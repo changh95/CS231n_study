@@ -3,7 +3,7 @@ Lecture 10. Recurrent Neural Networks [작성중]
 
 스터디원 임한동 님의 발표 내용을 바탕으로 cs231n lecture 10. RNN을 정리합니다.
 
-(본 포스팅은 [CS231n_study/study_records/발표자료/cs231n_2019_lecture10.pptx](https://github.com/ai-robotics-kr/CS231n_study/blob/master/study_records/%EB%B0%9C%ED%91%9C%EC%9E%90%EB%A3%8C/cs231n_2019_lecture10.pptx)와 [CS231n 강의 슬라이드](http://cs231n.stanford.edu/slides/2019/cs231n_2019_lecture10.pdf)를 참고하여 작성하였습니다.)
+(본 포스팅은 [CS231n_study/study_records/발표자료/cs231n_2019_lecture10.pptx](https://github.com/ai-robotics-kr/CS231n_study/blob/master/study_records/%EB%B0%9C%ED%91%9C%EC%9E%90%EB%A3%8C/cs231n_2019_lecture10.pptx)와 [CS231n 강의 슬라이드](http://cs231n.stanford.edu/slides/2019/cs231n_2019_lecture10.pdf), [ratsgo's blog(RNN과 LSTM을 이해해보자)](https://ratsgo.github.io/natural%20language%20processing/2017/03/09/rnnlstm/)를 참고하여 작성하였습니다.)
 
 강의 자료는 아래 링크를 참고하면 됩니다.
 
@@ -37,6 +37,8 @@ RNN의 기본 구조인 Vanilla RNN 입니다. 입력 x가 들어가서 internal
 #
 ![5](https://raw.githubusercontent.com/ai-robotics-kr/CS231n_study/master/images/lecture10/5.png)
 
+time step **t**의 hidden state(h)는 직전 시점 **t-1**의 hidden state(h)를 받아 갱신됩니다.
+
   - h<sub>t</sub> : NEW state
   - h<sub>t-1</sub>: OLD state
   - t: time step
@@ -49,7 +51,7 @@ The same function ( the same W matrix) [f<sub>w</sub>] : "같은 W 매트릭스�
 ![7](https://raw.githubusercontent.com/ai-robotics-kr/CS231n_study/master/images/lecture10/7.png)
 ![8](https://raw.githubusercontent.com/ai-robotics-kr/CS231n_study/master/images/lecture10/8.png)
 
-sigmoid가 아닌 tanh를 씀 : 음수 범위도 표현해줄 수 있어서
+sigmoid가 아닌 tanh를 씁니다. 이유는 음수 범위도 표현해줄 수 있어서 입니다.
 
 
 ![9](https://raw.githubusercontent.com/ai-robotics-kr/CS231n_study/master/images/lecture10/9.png)

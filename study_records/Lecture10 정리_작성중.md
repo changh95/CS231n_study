@@ -55,11 +55,37 @@ sigmoid가 아닌 tanh함수를 사용하는 이유는 **-1에서 1 범위의 �
 
 #
 ![10](https://raw.githubusercontent.com/ai-robotics-kr/CS231n_study/master/images/lecture10/10.png)
+
+첫번째 타임 스텝에서 첫 히든 스테이트, 즉 h<sub>0</sub>과 현재의 입력값인 x<sub>t</sub>가 f<sub>w</sub>함수로 들어가서, 다음 히든 스테이트인 h<sub>1</sub>을 생성합니다. 그리고 다음 입력값을 받으면 같은 과정을 계속해서 반복합니다. 
+그리고 여기서 주목해야할 부분이 있는데, **모든 time step에서 동일한 W matrix를 재사용하고 있습니다.**
+이렇게 재사용하기 때문에 역전파(backpropagation) 과정에서 결국 각각의 타임 스텝에 해당하는 그래디언트들을 모두 합친 값이 최종 그래디언트 값이 됩니다.
+
+#
 ![11](https://raw.githubusercontent.com/ai-robotics-kr/CS231n_study/master/images/lecture10/11.png)
+
+각각의 타임 스텝에 해당하는 출력값 y<sub>t</sub>은 아마 class score 등등 같은 것일 겁니다.
+
+#
 ![12](https://raw.githubusercontent.com/ai-robotics-kr/CS231n_study/master/images/lecture10/12.png)
+
+각각의 loss들은 아마 softmax loss 같은 것일 거구요.
+
+#
 ![13](https://raw.githubusercontent.com/ai-robotics-kr/CS231n_study/master/images/lecture10/13.png)
+
+그리고 최종 loss는 아까 말했듯이 각각의 loss들을 모두 합친 값이 됩니다.
+
+#
 ![14](https://raw.githubusercontent.com/ai-robotics-kr/CS231n_study/master/images/lecture10/14.png)
+
+입력이 여러개일 때 출력이 1개인 RNN 구조입니다.
+
+#
 ![15](https://raw.githubusercontent.com/ai-robotics-kr/CS231n_study/master/images/lecture10/15.png)
+
+입력이 1개일 때 출력이 여러개인 RNN 구조입니다.
+
+#
 ![16](https://raw.githubusercontent.com/ai-robotics-kr/CS231n_study/master/images/lecture10/16.png)
 ![17](https://raw.githubusercontent.com/ai-robotics-kr/CS231n_study/master/images/lecture10/17.png)
 ![18](https://raw.githubusercontent.com/ai-robotics-kr/CS231n_study/master/images/lecture10/18.png)

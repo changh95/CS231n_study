@@ -105,7 +105,7 @@ character 하나 하나를 가지고 하는 character-level language model도 �
 ![17](https://raw.githubusercontent.com/ai-robotics-kr/CS231n_study/master/images/lecture10/17.png)
 
 연속된 character를 읽고 다음 character가 뭔지 예측하는 language model입니다.
-단어 'hello'로 트레이닝하고자할 때, 각각의 character를 입력값으로 가지는데, 이 입력값들을 벡터로 표현하면,
+단어 'hello'로 트레이닝하고자할 때, 각각의 character를 입력값으로 가지는데, 이 입력값들을 벡터(one hot vector)로 표현하면,
 위와 같습니다.
 
 #
@@ -118,21 +118,50 @@ character 하나 하나를 가지고 하는 character-level language model도 �
 
 그런데 위 그림을 보면, 가장 확률이 높은 것을 골랐을 때에는, 정답과 다른 글자를 예측하고 있습니다.
 그럼 결국에 높은 loss를 갖게 되는데, 
-트레이닝을 계속 하다보면 조금씩 loss가 작아지면서 점점 더 예측을 잘하게 됩니다.
+training을 계속 하다보면 조금씩 loss가 작아지면서 점점 더 예측을 잘하게 됩니다.
 
+#
 ![20](https://raw.githubusercontent.com/ai-robotics-kr/CS231n_study/master/images/lecture10/20.png)
+
+마지막 softmax function이 score들을 확률분포 값들로 바꿔줍니다. 
+
+#
 ![21](https://raw.githubusercontent.com/ai-robotics-kr/CS231n_study/master/images/lecture10/21.png)
-![22](https://raw.githubusercontent.com/ai-robotics-kr/CS231n_study/master/images/lecture10/22.png)
+
+Sampling하는 이유와 test time에 one hot vector를 넣어주는 이유입니다.
+
+#
 ![23](https://raw.githubusercontent.com/ai-robotics-kr/CS231n_study/master/images/lecture10/23.png)
+
+이전 글자를 보고 다음 글자 예측을 잘하였습니다.
+
+#
 ![24](https://raw.githubusercontent.com/ai-robotics-kr/CS231n_study/master/images/lecture10/24.png)
+
+Backpropagation through time의 단점은 위키피디아 같은 문장들을 돌렸을 때 아주 아주 느려질 수 있다는 것입니다. 메모리도 엄청 많이 들거구요.
+
+그래서 이 문제를 해결하는 방법으로,
+
+#
 ![25](https://raw.githubusercontent.com/ai-robotics-kr/CS231n_study/master/images/lecture10/25.png)
 
-Truncated backpropagation through time : loss를 일정 step마다 나눠서 backpropagation
-
-
+#
 ![26](https://raw.githubusercontent.com/ai-robotics-kr/CS231n_study/master/images/lecture10/26.png)
+
+
+#
 ![27](https://raw.githubusercontent.com/ai-robotics-kr/CS231n_study/master/images/lecture10/27.png)
+
+일정 step마다 나눠서 loss를 구하고 backpropagation하는 "Truncated backpropation through time"이 있습니다.
+
+#
 ![28](https://raw.githubusercontent.com/ai-robotics-kr/CS231n_study/master/images/lecture10/28.png)
+
+다음은 RNN backpropagation 코드 입니다.
+
+http://gist.github.com/karpathy/d4dee566867f8291f086
+
+#
 ![29](https://raw.githubusercontent.com/ai-robotics-kr/CS231n_study/master/images/lecture10/29.png)
 ![30](https://raw.githubusercontent.com/ai-robotics-kr/CS231n_study/master/images/lecture10/30.png)
 ![31](https://raw.githubusercontent.com/ai-robotics-kr/CS231n_study/master/images/lecture10/31.png)

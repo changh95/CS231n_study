@@ -109,12 +109,9 @@ character 하나 하나를 가지고 하는 character-level language model도 �
 위와 같습니다.
 
 #
-![18](https://raw.githubusercontent.com/ai-robotics-kr/CS231n_study/master/images/lecture10/18.png)
+![19](https://raw.githubusercontent.com/ai-robotics-kr/CS231n_study/master/images/lecture10/19.png)
 
 입력값으로 글자 'h'를 받아 RNN으로 들어가고 다음 글자는 뭐가 될 가능성이 제일 큰지를 나타내는 출력값 y<sub>t</sub>가 나옵니다.
-
-#
-![19](https://raw.githubusercontent.com/ai-robotics-kr/CS231n_study/master/images/lecture10/19.png)
 
 그런데 위 그림을 보면, 가장 확률이 높은 것을 골랐을 때에는, 정답과 다른 글자를 예측하고 있습니다.
 그럼 결국에 높은 loss를 갖게 되는데, 

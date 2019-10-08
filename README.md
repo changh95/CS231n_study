@@ -36,7 +36,7 @@
 | Week 13. Visualizing and Understanding | ~~09/30/2019 22:00~~ | 채병기 |[ppt](https://github.com/ai-robotics-kr/CS231n_study/blob/master/study_records/%EB%B0%9C%ED%91%9C%EC%9E%90%EB%A3%8C/cs231n_2017_lecture12.ppt) | [Notes] |
 | Week 14. Generative Models | ~~10/07/2019 22:00~~ | 정혜원 |[pdf](https://github.com/ai-robotics-kr/CS231n_study/blob/master/study_records/%EB%B0%9C%ED%91%9C%EC%9E%90%EB%A3%8C/cs231n_2019_lecture13.pdf) | [Notes] |
 | Week 15. Deep Reinforcement Learning | 10/14/2019 22:00 | 이정연 |[pdf] | [Notes] |
-| Week 16. Towards ambient intelligence in <br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; AI-assisted healthcare spaces| 10/21/2019 22:00 | 박혜지 |[pdf] | [Notes] |
+| Week 16. Towards ambient intelligence in <br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;AI-assisted healthcare spaces| 10/21/2019 22:00 | 박혜지 |[pdf] | [Notes] |
 | Week 17. Adversarial Examples and Adversarial <br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Training (Ian Goodfellow) & 마무리 | 10/28/2019 22:00 | 정혜원 | [pdf] | [Notes] |
 
 

@@ -78,12 +78,12 @@ sigmoid가 아닌 tanh함수를 사용하는 이유는 **-1에서 1 범위의 �
 #
 ![14](https://raw.githubusercontent.com/ai-robotics-kr/CS231n_study/master/images/lecture10/14.png)
 
-입력이 여러개일 때 출력이 1개인 RNN 구조입니다.
+입력이 여러개일 때 출력이 1개인 RNN의 computational graph입니다.
 
 #
 ![15](https://raw.githubusercontent.com/ai-robotics-kr/CS231n_study/master/images/lecture10/15.png)
 
-입력이 1개일 때 출력이 여러개인 RNN 구조입니다.
+입력이 1개일 때 출력이 여러개인 RNN의 computational graph입니다.
 
 #
 ![16](https://raw.githubusercontent.com/ai-robotics-kr/CS231n_study/master/images/lecture10/16.png)

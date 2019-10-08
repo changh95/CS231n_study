@@ -3,7 +3,7 @@ Lecture 10. Recurrent Neural Networks [작성중]
 
  CS 231n lecture 10. RNN을 정리합니다.
 
-(본 포스팅은 스터디원 임한동 님의 발표 내용과 [CS231n_study/study_records/발표자료/cs231n_2019_lecture10.pptx](https://github.com/ai-robotics-kr/CS231n_study/blob/master/study_records/%EB%B0%9C%ED%91%9C%EC%9E%90%EB%A3%8C/cs231n_2019_lecture10.pptx), [CS231n 강의 슬라이드](http://cs231n.stanford.edu/slides/2019/cs231n_2019_lecture10.pdf), [ratsgo's blog(RNN과 LSTM을 이해해보자)](https://ratsgo.github.io/natural%20language%20processing/2017/03/09/rnnlstm/), [colah's blog(Understanding LSTM Networks)](http://colah.github.io/posts/2015-08-Understanding-LSTMs/)를 참고하여 작성하였습니다.)
+(본 포스팅은 CS231n 해당 강의와 스터디원 임한동 님의 발표 내용, [스터디원 임한동 님의 발표자료](https://github.com/ai-robotics-kr/CS231n_study/blob/master/study_records/%EB%B0%9C%ED%91%9C%EC%9E%90%EB%A3%8C/cs231n_2019_lecture10.pptx), [CS231n 강의 슬라이드](http://cs231n.stanford.edu/slides/2019/cs231n_2019_lecture10.pdf), [ratsgo's blog(RNN과 LSTM을 이해해보자)](https://ratsgo.github.io/natural%20language%20processing/2017/03/09/rnnlstm/), [colah's blog(Understanding LSTM Networks)](http://colah.github.io/posts/2015-08-Understanding-LSTMs/)를 참고하여 작성하였습니다.)
 
 강의 자료는 아래 링크를 참고하면 됩니다.
 

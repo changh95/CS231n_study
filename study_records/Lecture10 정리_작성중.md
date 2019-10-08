@@ -51,6 +51,8 @@ The same function ( the same W matrix) [f<sub>w</sub>] : "같은 W 매트릭스�
 #
 ![7](https://raw.githubusercontent.com/ai-robotics-kr/CS231n_study/master/images/lecture10/7.png)
 
+tanh함수를 사용하는 이유는 -1에서 1 범위의 값들을 표현해줄 수 있어서 입니다.
+
 #
 ![10](https://raw.githubusercontent.com/ai-robotics-kr/CS231n_study/master/images/lecture10/10.png)
 ![11](https://raw.githubusercontent.com/ai-robotics-kr/CS231n_study/master/images/lecture10/11.png)

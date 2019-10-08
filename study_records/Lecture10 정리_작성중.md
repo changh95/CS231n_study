@@ -32,17 +32,19 @@ Lecture 10. Recurrent Neural Networks [작성중]
 #
 ![4](https://raw.githubusercontent.com/ai-robotics-kr/CS231n_study/master/images/lecture10/4.png)
 
-RNN의 기본 구조인 Vanilla RNN 입니다. 입력 x가 들어가서 internal state가 발생하고 출력 y가 나오는 구조입니다.
+RNN의 기본 구조인 Vanilla RNN 입니다. 타입스텝 마다, 입력 x가 RNN으로 들어가면 RNN에 있던 internal hidden state가 갱신되고 internal hiddel state는 다시 모델로 들어가고 RNN에서 출력 y가 나옵니다. 
+
+즉, 입력값이 들어오면 hidden state가 업데이트 되고 출력값이 나오는 구조입니다.
 
 #
 ![5](https://raw.githubusercontent.com/ai-robotics-kr/CS231n_study/master/images/lecture10/5.png)
 
-time step **t**의 hidden state(h)는 직전 시점 **t-1**의 hidden state(h)를 받아 갱신됩니다.
+초록색 RNN block안에서 계산되는 공식을 보면,
 
-  - h<sub>t</sub> : NEW state
-  - h<sub>t-1</sub>: OLD state
-  - t: time step
-  
+function f는 weights w에 따라 달라지는데, function f는 이전 히든 스테이트인 h<sub>t-1</sub>와 현재 스테이트의 입력값인 x<sub>t</sub>를 받고 다음 히든 스테이트(갱신된 히든 스테이트)를 출력합니다.
+
+다음 단계에서도 동일한 function f를 사용합니다.
+
 #
 ![6](https://raw.githubusercontent.com/ai-robotics-kr/CS231n_study/master/images/lecture10/6.png)
 
@@ -57,6 +59,7 @@ sigmoid가 아닌 tanh함수를 사용하는 이유는 **-1에서 1 범위의 �
 ![10](https://raw.githubusercontent.com/ai-robotics-kr/CS231n_study/master/images/lecture10/10.png)
 
 첫번째 타임 스텝에서 첫 히든 스테이트, 즉 h<sub>0</sub>과 현재의 입력값인 x<sub>t</sub>가 f<sub>w</sub>함수로 들어가서, 다음 히든 스테이트인 h<sub>1</sub>을 생성합니다. 그리고 다음 입력값을 받으면 같은 과정을 계속해서 반복합니다. 
+
 그리고 여기서 주목해야할 부분이 있는데, **모든 time step에서 동일한 W matrix를 재사용하고 있습니다.**
 이렇게 재사용하기 때문에 역전파(backpropagation) 과정에서 결국 각각의 타임 스텝에 해당하는 그래디언트들을 모두 합친 값이 최종 그래디언트 값이 됩니다.
 

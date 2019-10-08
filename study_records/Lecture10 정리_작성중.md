@@ -48,8 +48,10 @@ time step **t**의 hidden state(h)는 직전 시점 **t-1**의 hidden state(h)�
 
 The same function ( the same W matrix) [f<sub>w</sub>] : "같은 W 매트릭스를 통해서 hidden state를 구한다"
 
+#
 ![7](https://raw.githubusercontent.com/ai-robotics-kr/CS231n_study/master/images/lecture10/7.png)
 
+#
 ![10](https://raw.githubusercontent.com/ai-robotics-kr/CS231n_study/master/images/lecture10/10.png)
 ![11](https://raw.githubusercontent.com/ai-robotics-kr/CS231n_study/master/images/lecture10/11.png)
 ![12](https://raw.githubusercontent.com/ai-robotics-kr/CS231n_study/master/images/lecture10/12.png)

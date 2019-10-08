@@ -1,5 +1,7 @@
 # Lecture 1
 
+(**작성자**: 장형기)
+
 ([Youtube Link](https://www.youtube.com/watch?v=vT1JzLTH4G4&list=PLC1qU-LWwrF64f4QKQT-Vg5Wr4qEE1Zxk&index=1)를 참조하여 작성하였습니다)
 
 Stanford CS231n 코스는 **Deep Learning을 사용한 Computer vision**에 대한 코스입니다.

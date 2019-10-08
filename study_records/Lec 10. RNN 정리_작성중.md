@@ -176,10 +176,9 @@ http://gist.github.com/karpathy/d4dee566867f8291f086
 트레이닝을 좀더 많이 해보면 이처럼 셰익스피어의 연극 대본같은 결과물도 낼 수 있습니다.
 
 #
-![32](https://raw.githubusercontent.com/ai-robotics-kr/CS231n_study/master/images/lecture10/32.png)
-
-#
 ![33](https://raw.githubusercontent.com/ai-robotics-kr/CS231n_study/master/images/lecture10/33.png)
+
+수학 교과서 내용으로 트레이닝해서 수학 공식이나 정의같은 결과물도 낼 수 있습니다.
 
 #
 ![34](https://raw.githubusercontent.com/ai-robotics-kr/CS231n_study/master/images/lecture10/34.png)

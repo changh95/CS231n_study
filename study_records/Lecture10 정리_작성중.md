@@ -40,12 +40,11 @@ RNN의 기본 구조인 Vanilla RNN 입니다. 입력 x가 들어가서 internal
   - h<sub>t</sub> : NEW state
   - h<sub>t-1</sub>: OLD state
   - t: time step
-  - The same function ( the same W matrix) [f<sub>w</sub>] : "같은 W 매트릭스를 통해서 hidden state를 구한다"
   
 #
 ![6](https://raw.githubusercontent.com/ai-robotics-kr/CS231n_study/master/images/lecture10/6.png)
 
-
+The same function ( the same W matrix) [f<sub>w</sub>] : "같은 W 매트릭스를 통해서 hidden state를 구한다"
 
 ![7](https://raw.githubusercontent.com/ai-robotics-kr/CS231n_study/master/images/lecture10/7.png)
 ![8](https://raw.githubusercontent.com/ai-robotics-kr/CS231n_study/master/images/lecture10/8.png)

@@ -145,7 +145,6 @@ Backpropagation through time의 단점은 위키피디아 같은 문장들을 �
 #
 ![26](https://raw.githubusercontent.com/ai-robotics-kr/CS231n_study/master/images/lecture10/26.png)
 
-
 #
 ![27](https://raw.githubusercontent.com/ai-robotics-kr/CS231n_study/master/images/lecture10/27.png)
 
@@ -160,15 +159,43 @@ http://gist.github.com/karpathy/d4dee566867f8291f086
 
 #
 ![29](https://raw.githubusercontent.com/ai-robotics-kr/CS231n_study/master/images/lecture10/29.png)
+
+윌리엄 셰익스피어의 글을 가지고 트레이닝을 해볼 수도 있는데,
+
+#
 ![30](https://raw.githubusercontent.com/ai-robotics-kr/CS231n_study/master/images/lecture10/30.png)
+
+트레이닝 초반에는 뭔가 이상한 결과물을 내는데,
+트레이닝 후반에는 좀 괜찮은 결과물들이 나오기 시작합니다.
+트레이닝이 잘되고 나면, 셰익스피어가 쓴 것 같은 어투의 결과물이 이처럼 나옵니다.
+
+#
 ![31](https://raw.githubusercontent.com/ai-robotics-kr/CS231n_study/master/images/lecture10/31.png)
+
+트레이닝을 좀더 많이 해보면 이처럼 셰익스피어의 연극 대본같은 결과물도 낼 수 있습니다.
+
+#
 ![32](https://raw.githubusercontent.com/ai-robotics-kr/CS231n_study/master/images/lecture10/32.png)
+
+#
 ![33](https://raw.githubusercontent.com/ai-robotics-kr/CS231n_study/master/images/lecture10/33.png)
+
+#
 ![34](https://raw.githubusercontent.com/ai-robotics-kr/CS231n_study/master/images/lecture10/34.png)
+
+#
 ![35](https://raw.githubusercontent.com/ai-robotics-kr/CS231n_study/master/images/lecture10/35.png)
+
+#
 ![36](https://raw.githubusercontent.com/ai-robotics-kr/CS231n_study/master/images/lecture10/36.png)
+
+#
 ![37](https://raw.githubusercontent.com/ai-robotics-kr/CS231n_study/master/images/lecture10/37.png)
+
+#
 ![38](https://raw.githubusercontent.com/ai-robotics-kr/CS231n_study/master/images/lecture10/38.png)
+
+#
 ![39](https://raw.githubusercontent.com/ai-robotics-kr/CS231n_study/master/images/lecture10/39.png)
 ![40](https://raw.githubusercontent.com/ai-robotics-kr/CS231n_study/master/images/lecture10/40.png)
 ![41](https://raw.githubusercontent.com/ai-robotics-kr/CS231n_study/master/images/lecture10/41.png)

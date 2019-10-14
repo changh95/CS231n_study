@@ -28,7 +28,7 @@
 | Week 5. CNN (Convolutional Neural Networks) | ~~07/29/2019 22:00~~ | 이정연 |[ppt](https://github.com/ai-robotics-kr/CS231n_study/blob/master/study_records/%EB%B0%9C%ED%91%9C%EC%9E%90%EB%A3%8C/cs231n_2019_lecture05.pptx) | [Notes] |
 | Week 6. Deep Learning Software | ~~08/05/2019 22:00~~ | 김한준 |[ppt](https://github.com/ai-robotics-kr/CS231n_study/blob/master/study_records/%EB%B0%9C%ED%91%9C%EC%9E%90%EB%A3%8C/cs231n_2017_lecture5.pptx) | [Notes] |
 | Week 7. Training Neural Networks, part 1 | ~~08/12/2019 22:00~~ | 전마로 |[ppt](https://github.com/ai-robotics-kr/CS231n_study/blob/master/study_records/%EB%B0%9C%ED%91%9C%EC%9E%90%EB%A3%8C/cs231n_2017_lecture6.pptx) | [Notes] |
-| Week 8. Assignment # 1 (CS231n 2019) | ~~08/26/2019 22:00~~ | 토론 | 없음 | [Notes] |
+| Week 8. Assignment # 1 (CS231n 2019) | ~~08/26/2019 22:00~~ | 토론 | - | [Notes] |
 | Week 9. Training Neural Networks, part 2 | ~~09/02/2019 22:00~~ | 김영기 |[ppt](https://github.com/ai-robotics-kr/CS231n_study/blob/master/study_records/%EB%B0%9C%ED%91%9C%EC%9E%90%EB%A3%8C/cs231n_2017_lecture7.pptx) | [Notes] |
 | Week 10. CNN Architectures | ~~09/09/2019 22:00~~ |	장형기 |[pdf](https://github.com/ai-robotics-kr/CS231n_study/blob/master/study_records/%EB%B0%9C%ED%91%9C%EC%9E%90%EB%A3%8C/cs231n_2019_lecture09.pdf) | [Notes] |
 | Week 11. RNN (Recurrent Neural Networks) | ~~09/16/2019 22:00~~ | 임한동 |[ppt](https://github.com/ai-robotics-kr/CS231n_study/blob/master/study_records/%EB%B0%9C%ED%91%9C%EC%9E%90%EB%A3%8C/cs231n_2019_lecture10.pptx) | [Notes] |
@@ -36,7 +36,7 @@
 | Week 13. Visualizing and Understanding | ~~09/30/2019 22:00~~ | 채병기 |[ppt](https://github.com/ai-robotics-kr/CS231n_study/blob/master/study_records/%EB%B0%9C%ED%91%9C%EC%9E%90%EB%A3%8C/cs231n_2017_lecture12.ppt) | [Notes] |
 | Week 14. Generative Models | ~~10/07/2019 22:00~~ | 정혜원 |[pdf](https://github.com/ai-robotics-kr/CS231n_study/blob/master/study_records/%EB%B0%9C%ED%91%9C%EC%9E%90%EB%A3%8C/cs231n_2019_lecture13.pdf) | [Notes] |
 | Week 15. Deep Reinforcement Learning | ~~10/14/2019 22:00~~ | 이정연 |[ppt](https://github.com/ai-robotics-kr/CS231n_study/blob/master/study_records/%EB%B0%9C%ED%91%9C%EC%9E%90%EB%A3%8C/cs231n_2017_lecture14.pptx?raw=true) | [Notes] |
-| Week 16. Towards ambient intelligence in <br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;AI-assisted healthcare spaces| 10/21/2019 22:00 | 박혜지 |[-] | [Notes] |
+| Week 16. Towards ambient intelligence in <br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;AI-assisted healthcare spaces| 10/21/2019 22:00 | 박혜지 |-| [Notes] |
 | Week 17. Adversarial Examples and Adversarial <br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Training (Ian Goodfellow) & 마무리 | 10/28/2019 22:00 | 정혜원 | [pdf] | [Notes] |
 
 

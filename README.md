@@ -5,7 +5,7 @@
 ## 스터디 소개:
 - 목적: [Stanford University CS231n: Convolutional Neural Networks for Visual Recognition](http://cs231n.stanford.edu/) 강의를 통해 <br/>딥러닝 기반 비전에 대해 공부하기.
 - 기간: 2019년 7월 ~ 2019년 10월
-- 참여자: 박혜지, 장형기, 전마로, 김영기, 이정연, 김한준, 임한동, 채병기, 정혜원, 배현진
+- 참여자: HJ, 장형기, 전마로, 김영기, 이정연, 김한준, 임한동, 채병기, 정혜원, 배현진
 - 기획 그룹: [AI Robotics KR](https://www.facebook.com/groups/airoboticskr/)
 
 ## 스터디 진행 방법:
@@ -21,7 +21,7 @@
 ## 스터디 진도표
 |  스터디 내용  | 날짜와 시간 | 발표자 | 발표자료 | 스터디노트 |
 |:------------------------|:---------------------:|:---------------------:|:-----------------:|:--------------------:|
-| Week 1. Introduction + 자기소개 | ~~07/01/2019 22:00~~ | 박혜지 | [pdf](https://github.com/ai-robotics-kr/CS231n_study/blob/master/study_records/%EB%B0%9C%ED%91%9C%EC%9E%90%EB%A3%8C/cs231n_2017_lecture1.pdf) | [Notes](https://github.com/ai-robotics-kr/CS231n_study/blob/master/study_records/Lec%201%20intro%20%EC%A0%95%EB%A6%AC.md) |
+| Week 1. Introduction + 자기소개 | ~~07/01/2019 22:00~~ | HJ | [pdf](https://github.com/ai-robotics-kr/CS231n_study/blob/master/study_records/%EB%B0%9C%ED%91%9C%EC%9E%90%EB%A3%8C/cs231n_2017_lecture1.pdf) | [Notes](https://github.com/ai-robotics-kr/CS231n_study/blob/master/study_records/Lec%201%20intro%20%EC%A0%95%EB%A6%AC.md) |
 | Week 2. Image Classification | ~~07/08/2019 22:00~~ | 장형기 |[pdf](https://github.com/ai-robotics-kr/CS231n_study/blob/master/study_records/%EB%B0%9C%ED%91%9C%EC%9E%90%EB%A3%8C/cs231n_2017_lecture2.pdf) | [Notes](https://github.com/ai-robotics-kr/CS231n_study/blob/master/study_records/Lec%202.%20image%20classification%20%EC%A0%95%EB%A6%AC.md) |
 | Week 3. Loss Functions and Optimization |  ~~07/15/2019 22:00~~  | 전마로 |[ppt](https://github.com/ai-robotics-kr/CS231n_study/blob/master/study_records/%EB%B0%9C%ED%91%9C%EC%9E%90%EB%A3%8C/cs231n_2017_lecture3.pptx) | [Notes](https://github.com/ai-robotics-kr/CS231n_study/blob/master/study_records/Lec%203.%20Loss%20Functions%20and%20Optimization%20%EC%A0%95%EB%A6%AC.md) |
 | Week 4. Introduction to Neural Networks |  ~~07/22/2019 22:00~~  | 김영기 |[ppt](https://github.com/ai-robotics-kr/CS231n_study/blob/master/study_records/%EB%B0%9C%ED%91%9C%EC%9E%90%EB%A3%8C/cs231n_2017_lecture4.pptx) | [Notes](https://github.com/ai-robotics-kr/CS231n_study/blob/master/study_records/Lec%204.%20Intro%20to%20NN%20%EC%A0%95%EB%A6%AC.md) |
@@ -36,7 +36,7 @@
 | Week 13. Visualizing and Understanding | ~~09/30/2019 22:00~~ | 채병기 |[ppt](https://github.com/ai-robotics-kr/CS231n_study/blob/master/study_records/%EB%B0%9C%ED%91%9C%EC%9E%90%EB%A3%8C/cs231n_2017_lecture12.ppt) | [Notes] |
 | Week 14. Generative Models | ~~10/07/2019 22:00~~ | 정혜원 |[pdf](https://github.com/ai-robotics-kr/CS231n_study/blob/master/study_records/%EB%B0%9C%ED%91%9C%EC%9E%90%EB%A3%8C/cs231n_2019_lecture13.pdf) | [Notes] |
 | Week 15. Deep Reinforcement Learning | ~~10/14/2019 22:00~~ | 이정연 |[ppt](https://github.com/ai-robotics-kr/CS231n_study/blob/master/study_records/%EB%B0%9C%ED%91%9C%EC%9E%90%EB%A3%8C/cs231n_2017_lecture14.pptx?raw=true) | [Notes] |
-| Week 16. Towards ambient intelligence in <br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;AI-assisted healthcare spaces| ~~10/21/2019 22:00~~ | 박혜지 |-| - |
+| Week 16. Towards ambient intelligence in <br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;AI-assisted healthcare spaces| ~~10/21/2019 22:00~~ | HJ |-| - |
 | Week 17. 마무리 쫑파티 | ~~10/28/2019 22:00~~ | - | - | - |
 
 

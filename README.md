@@ -5,7 +5,7 @@
 ## 스터디 소개:
 - 목적: [Stanford University CS231n: Convolutional Neural Networks for Visual Recognition](http://cs231n.stanford.edu/) 강의를 통해 <br/>딥러닝 기반 비전에 대해 공부하기.
 - 기간: 2019년 7월 ~ 2019년 10월
-- 참여자: @positive235, 장형기, 전마로, 김영기, 이정연, 김한준, 임한동, 채병기, 정혜원, 배현진
+- 참여자: [positive235](http://github.com/positive235), 장형기, 전마로, 김영기, 이정연, 김한준, 임한동, 채병기, 정혜원, 배현진
 - 기획 그룹: [AI Robotics KR](https://www.facebook.com/groups/airoboticskr/)
 
 ## 스터디 진행 방법:
